@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string></string>
+	</array>
+	<key>item0</key>
+	<string>impact.ttf</string>
+	<key></key>
+	<string></string>
+	<key>camerPrivacy - Camera Usage Description</key>
+	<string>CAMERA</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>my apll will save image for testing use</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
