@@ -1,4 +1,4 @@
-//
+// v1.1
 //  ViewController.swift
 //  MemeMeV1.0
 //
@@ -61,7 +61,11 @@ class MemeEditiorViewController: UIViewController,UIImagePickerControllerDelegat
         }
     func save() {
                 // Create the meme
-            let meme = Meme(top: top.text!, bottom: buttom.text!, originalImage: imageView.image!, memedImage:generateMemedImage())
+        let meme = Meme(top: top.text!, bottom: buttom.text!, originalImage: imageView.image!, memedImage:generateMemedImage())
+        // to add  new memesto the array 
+     let object = UIApplication.shared.delegate
+    let appDelegate = object as! AppDelegate
+           appDelegate.memes.append(meme)
          
         }
    func generateMemedImage() -> UIImage {
